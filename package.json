@@ -21,18 +21,17 @@
                 "owner": "typescript",
                 "severity": "error",
                 "fileLocation": "relative",
+                "label": "ts-loader",
+                
                 "pattern": [
                     {
                         "regexp": "ERROR in (.*)",
-                        "file": 1,
-                        "line": 2,
-                        "column": 3
+                        "file": 1
                     },
                     {
-                        "regexp": "\\((\\d+)(:|,)(\\d+)\\): (.*)",
-                        "line": 1,
-                        "column": 3,
-                        "message": 4
+                        "regexp": "\\((\\d+,\\d+)\\): (.*)",
+                        "location": 1,
+                        "message": 2
                     }
                 ]
             },
@@ -41,23 +40,22 @@
                 "owner": "typescript",
                 "severity": "error",
                 "fileLocation": "relative",
+                "label": "ts-loader",
                 "pattern": [
                     {
                         "regexp": "ERROR in (.*)",
-                        "file": 1,
-                        "line": 2,
-                        "column": 3
+                        "file": 1
                     },
                     {
-                        "regexp": "^(\\w(\\w|\\s)*:( \\w+:)* (.*))(\\((\\d):(\\d)\\))?",
+                        "regexp": "^(\\w[\\w\\s]*:( \\w+:)* .*)\\((\\d+:\\d+)?\\)?",
                         "message": 1,
-                        "location": 2
+                        "location": 3
                     },
                     {
-                        "regexp": "(.*)(\\d+):(\\d+)-?(\\d+)?(.*)",
-                        "line": 2,
-                        "column": 3,
-                        "endColumn": 4
+                        "regexp": ".*(\\d+):(\\d+)-?(\\d+)?(.*)",
+                        "line": 1,
+                        "column": 2,
+                        "endColumn": 3
                     }
                 ]
             }
