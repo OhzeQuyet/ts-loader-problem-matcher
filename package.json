@@ -1,6 +1,6 @@
 {
     "name": "ts-loader-problem-matcher",
-    "displayName": "ts-loader-problem-matcher",
+    "displayName": "ts-loader Problem Matcher",
     "description": "Problem matcher for ts-loader",
     "version": "0.0.1",
     "publisher": "alqiu",
