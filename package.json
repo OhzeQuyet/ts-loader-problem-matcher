@@ -2,7 +2,7 @@
     "name": "ts-loader-problem-matcher",
     "displayName": "ts-loader Problem Matcher",
     "description": "Problem matcher for ts-loader",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "alqiu",
     "repository": {
         "type": "git",
@@ -22,7 +22,6 @@
                 "severity": "error",
                 "fileLocation": "relative",
                 "label": "ts-loader",
-                
                 "pattern": [
                     {
                         "regexp": "ERROR in (.*)",
