@@ -17,7 +17,7 @@
     "contributes": {
         "problemMatchers": [
             {
-                "name": "ts-loader",
+                "name": "ts-loader-1",
                 "owner": "typescript",
                 "severity": "error",
                 "fileLocation": "relative",
@@ -36,7 +36,7 @@
                 ]
             },
             {
-                "name": "ts-loader1",
+                "name": "ts-loader-2",
                 "owner": "typescript",
                 "severity": "error",
                 "fileLocation": "relative",
