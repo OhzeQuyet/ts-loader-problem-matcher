@@ -1,0 +1,41 @@
+ERROR in ./a.ts
+(27,5): error TS2300: Duplicate identifier 'a'.
+
+ERROR in ./a.ts
+(2,1): error TS2304: Cannot find name 'require'.
+
+ERROR in ./a.ts
+(3,1): error TS2304: Cannot find name 'require'.
+
+ERROR in ./a.ts
+(5,10): error TS2391: Function implementation is missing or not immediately following the declaration.
+
+ERROR in ./~/redux/es/index.js
+Module not found: Error: Can't resolve './combineReducers' in '/home/gareth/dev/ts-loader/examples/react-cdn-simple/node_modules/redux/es'
+ @ ./~/redux/es/index.js 2:0-48
+ @ ./src/index.tsx
+
+ERROR in ../server/broadcaster.ts
+Module parse failed: /home/wyn/Code/ddwwcruz/node-spyfall/src/server/broadcaster.ts Unexpected token (3:5)
+You may need an appropriate loader to handle this file type.
+| import AI from './library/auto-increment'
+| 
+| type Subscriber<T> = (args: T) => void
+| 
+| const broadcasterAI = new AI()
+
+ERROR in ./~/shared/data.d.ts
+Module build failed: Error: Debug Failure. False expression: Output generation failed
+    at Object.assert (node_modules\typescript\lib\typescript.js:2099:23)
+    at Object.transpileModule (node_modules\typescript\lib\typescript.js:53173:18)
+    at Object.loader (node_modules\ts-loader\index.js:421:49)
+ @ ./src/component.ts 12:31-83
+
+ERROR in ./src/component.ts
+Module not found: Error: Cannot resolve module 'shared/data' in ...src/component
+ @ ./src/component.ts 12:26-73
+
+ERROR in ./a.ts
+(10,53): error TS2304: Cannot find name 'abstract'.
+
+aaaa: 
