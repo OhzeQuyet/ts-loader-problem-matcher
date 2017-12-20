@@ -56,6 +56,28 @@
                         "loop": true
                     }
                 ]
+            },
+            {
+                "name": "ts-loader-3",
+                "owner": "typescript",
+                "severity": "error",
+                "fileLocation": "absolute",
+                "label": "ts-loader",
+                "pattern": [
+                    {
+                        "regexp": "(\\w+) in (.+)",
+                        "severity": 1,
+                        "file": 2
+                    },
+                    {
+                        "regexp": "\\[tsl\\]\\s*\\w+ in .*\\((\\d+,\\d+)\\)",
+                        "location": 1
+                    },
+                    {
+                        "regexp": "\\s+(.*)",
+                        "message": 1
+                    }
+                ]
             }
         ]
     },

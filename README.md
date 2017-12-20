@@ -1,3 +1,3 @@
 # ts-loader Problem Matcher
 
-Add `$ts-loader-1` and `$ts-loader-2` to `problemMatcher:` to use.
+Specify `$ts-loader-%i` (1 <= %i <= 3) into `problemMatcher:` to use.
